@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation Task]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="souq.automation.task.sign_up">
+        <methods>
+          <include name="open_driver"/>
+          <include name="close_driver"/>
+          <include name="signup"/>
+        </methods>
+      </class> <!-- souq.automation.task.sign_up -->
+      <class name="souq.automation.task.Login">
+        <methods>
+          <include name="close_driver"/>
+          <include name="login"/>
+          <include name="open_driver"/>
+        </methods>
+      </class> <!-- souq.automation.task.Login -->
+      <class name="souq.automation.task.Toy">
+        <methods>
+          <include name="open_driver"/>
+          <include name="toy"/>
+          <include name="close_driver"/>
+        </methods>
+      </class> <!-- souq.automation.task.Toy -->
+      <class name="souq.automation.task.Forgot_password">
+        <methods>
+          <include name="close_driver"/>
+          <include name="forgot_pass"/>
+          <include name="open_driver"/>
+        </methods>
+      </class> <!-- souq.automation.task.Forgot_password -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Automation Task] -->

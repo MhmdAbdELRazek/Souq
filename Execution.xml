@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Task">
+	<test verbose="2" name="Default test">
+		<classes>
+			<class name="souq.automation.task.sign_up" />
+			<class name="souq.automation.task.Login" />
+			<class name="souq.automation.task.Forgot_password" />
+			<class name="souq.automation.task.Toy" />
+		</classes>
+	</test> <!-- Default test -->
+</suite> <!-- Default suite -->
